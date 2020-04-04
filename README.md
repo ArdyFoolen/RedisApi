@@ -33,3 +33,9 @@
 4. After in Version make sure 1.2.6 is selected and click Install
 
 *Note:* Do not select a newer version, because the multiplexer will throw a RedisConnectionException on the async methods even after the check that it is connected. 
+
+## Usage
+
+Run the Tests in Test Explorer, they should all be green. Not all of them clean up, so you should be able to verify either by:
+1. Redis React, click inside **Search Keys**
+2. Redis-Cli, Enter command **exists MySet** *(Case sensitive)*
