@@ -1,5 +1,7 @@
 # RedisApi
 
+## Prerequisites
+
 ###### Redis service and Redis-cli installation on Windows
 
 1. [Visit the archived MSOpenTech Redis Github repository](https://github.com/MicrosoftArchive/redis/).
