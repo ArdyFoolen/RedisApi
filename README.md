@@ -24,3 +24,12 @@
 
 1. Visit [Redis React](https://github.com/ServiceStackApps/RedisReact).
 2. Scroll down to Download and Windows and click RedisReact-winforms.exe
+
+###### Re-install StackExchange.Redis
+
+1. In Visual Studio in menu Tools > NuGet Package Manager > Manage NuGet Packages for Solution
+2. In tabblad Browse search for StackExchange.Redis
+3. Select RedisApi and Uninstall
+4. After in Version make sure 1.2.6 is selected and click Install
+
+*Note:* Do not select a newer version, because the multiplexer will throw a RedisConnectionException on the async methods even after the check that it is connected. 
