@@ -19,3 +19,8 @@
 
 1. In the Command Prompt run: redis-cli -h 127.0.0.1 -p 6379
 2. For an introduction on Redis [Click Here](https://redis.io/topics/data-types-intro)
+
+###### Another user-friendly UI tool for browsing
+
+1. Visit [Redis React](https://github.com/ServiceStackApps/RedisReact).
+2. Scroll down to Download and Windows and click RedisReact-winforms.exe
