@@ -1,6 +1,6 @@
 # RedisApi
 
-###### Redis-cli installation on Windows
+###### Redis service and Redis-cli installation on Windows
 
 1. [Visit the archived MSOpenTech Redis Github repository](https://github.com/MicrosoftArchive/redis/).
 2. Scroll down to the “Redis on Windows” section and click on the release page link.
@@ -12,3 +12,8 @@
 
 1. Open your Command Prompt (ex: cmd.exe).
 2. Run the following command: redis-cli ping
+
+###### Using Redis-cli
+
+1. In the Command Prompt run: redis-cli -h 127.0.0.1 -p 6379
+2. For an introduction on Redis [Click Here](https://redis.io/topics/data-types-intro)
